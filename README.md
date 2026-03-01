@@ -42,7 +42,7 @@ This is experimental code. Check the sketch files for current implementation det
 - [ ] Optimize inter-core communication
 - [ ] Implement efficient display buffering
 - [ ] Add comprehensive performance metrics
-- [ ] Convert to production-ready library
+- [ ] Convert dis to production-ready library
 
 ## Author
 
