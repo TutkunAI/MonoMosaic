@@ -2,18 +2,17 @@
 
 ![MonoMosaic Demo](demo.png)
 
-An experimental graphics library sketch for HD44780 16x2 character displays, designed for testing and exploring multi-core operation on ESP32 microcontrollers.
-
+An experimental graphics library sketch for HD44780 16x2 character displays, designed for making graphical user interfaces on these displays possible
 ## Project Status
 
-This is a work-in-progress testing sketch, not a finished library. It's used for experimentation and validation of ESP32's dual-core capabilities with display operations.
+This is a work-in-progress testing sketch, not a finished library. It's used for experimentation and validation of ESP32's dual-core capabilities with direct register writes and running the display on 6khz.
 
 ## Purpose
 
 This project explores:
 - Dual-Core Processing - Testing multi-core task distribution on ESP32
 - HD44780 16x2 Display Control - Character display manipulation across cores
-- Performance Analysis - Benchmarking core performance and synchronization
+- Pixel Array modification and line drawing algorithms
 - Core Affinity - Testing task pinning and core communication
 
 ## Hardware
@@ -30,13 +29,12 @@ This project explores:
 
 ## Usage
 
-This is experimental code. Check the sketch files for current implementation details.
-
+Put your graphical commands into core 1. core 0 is doing its best to just keep up with the screen. 
 ## Notes
 
 - API and functionality are subject to change
-- Not recommended for production use
-- Use as a reference for ESP32 multi-core display projects
+- Go crazy wit dis
+
 
 ## Future Development
 
@@ -52,4 +50,4 @@ TutkunAI - 2026
 
 ---
 
-This is a testing/experimental project. Use at your own risk!
+This is a testing/experimental project. Don't Crucify Me!
