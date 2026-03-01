@@ -1,6 +1,6 @@
 # MonoMosaic
 
-An experimental graphics library sketch for HD44780 16x2 character displays, designed for testing and exploring multi-core operation on ESP32 microcontrollers.
+An experimental graphics library sketch for HD44780 16x2 character displays, designed for making Graphics UI for character only displays, making them more cute
 
 ## Project Status
 
