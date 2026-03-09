@@ -20,9 +20,9 @@ inline void lcdRS(bool state) {
 
 inline void lcdPulseEnable() {
   GPIO.out_w1ts = (1UL << LCD_E);
-  delayMicroseconds(75);
+  delayMicroseconds(20);
   GPIO.out_w1tc = (1UL << LCD_E);
-  delayMicroseconds(75);
+  delayMicroseconds(20);
 }
 
 inline void lcdWrite8(uint8_t value) {
