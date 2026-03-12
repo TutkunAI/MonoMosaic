@@ -17,6 +17,7 @@ This project explores:
 
 ## Hardware
 
+![Demo](monomosaicschematics.jpg)
 - ESP32 microcontroller (dual-core)
 - HD44780 16x2 character display module
 
