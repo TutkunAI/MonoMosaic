@@ -1,6 +1,6 @@
 # MonoMosaic
 
-![MonoMosaic Demo](demo.png)
+![MonoMosaic Demo](16x2demo.mp4)
 
 An experimental graphics library sketch for HD44780 16x2 character displays, designed for making graphical user interfaces on these displays possible
 ## Project Status
