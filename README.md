@@ -1,6 +1,8 @@
 # MonoMosaic
 
-![MonoMosaic Demo](16x2demo.mp4)
+<video width="600" controls>
+  <source src="16x2demo.mp4" type="video/mp4">
+</video>
 
 An experimental graphics library sketch for HD44780 16x2 character displays, designed for making graphical user interfaces on these displays possible
 ## Project Status
