@@ -5,7 +5,7 @@
 An experimental graphics library sketch for HD44780 16x2 character displays, designed for making graphical user interfaces on these displays possible
 ## Project Status
 
-This is a work-in-progress testing sketch, not a finished library. It's used for experimentation and validation of ESP32's dual-core capabilities with direct register writes and running the display on 6khz.
+This is a work-in-progress testing sketch, not a finished library. It's used for experimentation and validation of ESP32's dual-core capabilities with direct register writes and running the display on 24khz.
 
 ## Purpose
 
